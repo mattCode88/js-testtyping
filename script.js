@@ -45,14 +45,14 @@ let controlloNumeroRandomico = (array) => {
 }
 
 // GENERO ARRAY 100 PAROLE-------------------------------------------------------------------------------------------------------------------------------
-let parolePerArray = `facciamo birillo frase molto lunga ancestrale generare array contenete cento parole così ramarro doversi stufare 
+let parolePerArray = `facciamo birillo frase molto lunga ancestrale generare array contenente cento parole così ramarro doversi stufare 
                       mettendo virgole eternità spazi ovolollo improprio questa valle lacrime senza reale coercizione implicita esplicita 
                       importante arrivare dunque maldive proseguiamo popi definire qualcosa speciale volendo essere azzurro 
                       comunque cactus cesta televisione playstation mobile tavolo cucina orologio divano gerundio sul piedistallo 
-                      posto comune motivo incapzulato dentro orecchino verde computer fernando giocoso pericoloso bella ragazza 
-                      camino vicessitudine acrobatica nunchaku elementale convalescente ospedale panorama mamma meritato 
+                      posto comune motivo incapsulato dentro orecchino verde computer fernando giocoso pericoloso bella ragazza 
+                      camino vicissitudine acrobatica nunchaku elementale convalescente ospedale panorama mamma meritato 
                       riconoscimento facciale ficcanaso famoso cocendo pizza forno microonde spalmabile formaggio vecchio 
-                      rotondo tette americane senegal mare sole luna addormentarsi cuniculo fossa arricchito favori`;
+                      rotondo tette americane senegal mare sole luna addormentarsi cunicolo fossa arricchito favori`;
 
 function generaArrayParole(frase){
     let array2 = [],
