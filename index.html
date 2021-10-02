@@ -9,8 +9,45 @@
 </head>
 <body>
     
+    <div id="container">
 
+        <h1>BENVENUTI A TESTTYPING</h1>
 
+        <div id="difficolta">
+            <div>Seleziona una difficoltà e mettiti alla prova!</div>
+            <div>
+                <label for="facile">Facile</label>
+                <input type="radio" name="difficolta" value="facile">
+                <label for="difficile">Difficile</label>
+                <input type="radio" name="difficolta" value="difficile">
+            </div>
+            <div id="invio" class="btn">GIOCA</div>
+            <div id="messaggio"></div>
+        </div>
+
+        <div id="gioco">
+
+            <div id="container-word">
+                
+            </div>
+            
+            <div id="input">
+                <input type="text" placeholder="Enter per confermare" id="inizia-gioco">
+            </div>
+            
+            <div>
+                <div>Appena inizierai a digitare partirà il tempo... Hai 60''. Scrivi la parola evidenziata!!!</div>
+                <div>Tempo restante: <span id="time-control">60</span><span>''</span></div>
+            </div>
+            
+            <div id="messaggio2">
+                Hai inserito correttamente: <span id="parole-corrette"></span> parole.
+            </div>
+
+            <div class="btn" id="reset">RIPROVA</div>
+        </div>
+
+    </div>
 
     <script src="script.js"></script>
 </body>
