@@ -29,7 +29,6 @@ function controlArray(array, nuovoArray, numeroRandom, parola) {
             nuovoArray.push(parola);
         } 
     }
-    return nuovoArray;
 }
 
 export function creaArrayParoleRandom(stringa) {
