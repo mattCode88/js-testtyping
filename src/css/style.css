@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.selezionata {
+  background-color: lightseagreen;
+}
+.giusta {
+  color: lightseagreen;
+}
+.sbagliata {
+  color: red;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: lightseagreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  width: 75%;
+}
+.container > * {
+  margin: 10px;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+#parole-wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #302d2d;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+#parole-wrapper > span {
+  margin: 5px;
+  padding: 3px;
+  border-radius: 5px;
+}
+#input-parole {
+  background-color: #302d2d;
+  height: 40px;
+  width: 300px;
+  border: none;
+  border-radius: 10px;
+  padding-left: 20px;
+  color: #fff;
+}
+#input-parole:focus {
+  outline: none;
+}
+#nuovo-gioco {
+  cursor: pointer;
+  background-color: #302d2d;
+  color: #fff;
+  padding: 8px;
+  width: max-content;
+  border-radius: 5px;
+}
