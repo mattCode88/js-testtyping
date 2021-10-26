@@ -17,7 +17,7 @@ let elementiDiGioco = {
     selezionata: 0,
     giuste: 0,
     sbagliate: 0,
-    tempoRimanente: 5,
+    tempoRimanente: 60,
     count: 0,
     controlTest: true
 }

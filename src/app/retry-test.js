@@ -11,7 +11,7 @@ function resettaElementiDiGioco(DOM, elementiDiGioco) {
     elementiDiGioco.selezionata = 0;
     elementiDiGioco.giuste = 0;
     elementiDiGioco.sbagliate = 0;
-    elementiDiGioco.tempoRimanente = 5;
+    elementiDiGioco.tempoRimanente = 60;
     elementiDiGioco.count = 0;
     elementiDiGioco.controlTest = true;
     DOM.inputParole.value = '';
